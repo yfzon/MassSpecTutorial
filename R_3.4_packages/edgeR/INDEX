@@ -1,0 +1,149 @@
+DGEExact-class          differential expression of Digital Gene
+                        Expression data - class
+DGEGLM-class            Digital Gene Expression Generalized Linear
+                        Model results - class
+DGELRT-class            Digital Gene Expression Likelihood Ratio Test
+                        data and results - class
+DGEList                 DGEList Constructor
+DGEList-class           Digital Gene Expression data - class
+WLEB                    Calculate Weighted Likelihood Empirical Bayes
+                        Estimates
+addPriorCount           Add a prior count
+adjustedProfileLik      Adjusted Profile Likelihood for the Negative
+                        Binomial Dispersion Parameter
+as.data.frame.TopTags   Turn a TopTags Object into a Dataframe
+as.matrix.DGEList       Turn a DGEList Object into a Matrix
+aveLogCPM               Average Log Counts Per Million
+binMeanVar              Explore the mean-variance relationship for DGE
+                        data
+binomTest               Exact Binomial Tests for Comparing Two Digital
+                        Libraries
+calcNormFactors         Calculate Normalization Factors to Align
+                        Columns of a Count Matrix
+camera.DGEList          Competitive Gene Set Test for Digital Gene
+                        Expression Data Accounting for Inter-gene
+                        Correlation
+commonCondLogLikDerDelta
+                        Conditional Log-Likelihoods in Terms of Delta
+condLogLikDerSize       Conditional Log-Likelihood of the Dispersion
+                        for a Single Group of Replicate Libraries
+cpm                     Counts per Million or Reads per Kilobase per
+                        Million
+cutWithMinN             Cut numeric vector into non-empty intervals
+decideTestsDGE          Multiple Testing Across Genes and Contrasts
+dglmStdResid            Visualize the mean-variance relationship in DGE
+                        data using standardized residuals
+diffSpliceDGE           Test for Differential Exon Usage
+dim.DGEList             Retrieve the Dimensions of a DGEList, DGEExact,
+                        DGEGLM, DGELRT or TopTags Object
+dimnames.DGEList        Retrieve the Dimension Names of a DGE Object
+dispBinTrend            Estimate Dispersion Trend by Binning for NB
+                        GLMs
+dispCoxReid             Estimate Common Dispersion for Negative
+                        Binomial GLMs
+dispCoxReidInterpolateTagwise
+                        Estimate Genewise Dispersion for Negative
+                        Binomial GLMs by Cox-Reid Adjusted Profile
+                        Likelihood
+dispCoxReidSplineTrend
+                        Estimate Dispersion Trend for Negative Binomial
+                        GLMs
+dropEmptyLevels         Drop Levels of a Factor that Never Occur
+edgeR-package           Empirical analysis of digital gene expression
+                        data in R
+edgeRUsersGuide         View edgeR User's Guide
+equalizeLibSizes        Equalize Library Sizes by Quantile-to-Quantile
+                        Normalization
+estimateCommonDisp      Estimate Common Negative Binomial Dispersion by
+                        Conditional Maximum Likelihood
+estimateDisp            Estimate Common, Trended and Tagwise Negative
+                        Binomial dispersions by weighted likelihood
+                        empirical Bayes
+estimateExonGenewiseDisp
+                        Estimate Genewise Dispersions from Exon-Level
+                        Count Data
+estimateGLMCommonDisp   Estimate Common Dispersion for Negative
+                        Binomial GLMs
+estimateGLMRobustDisp   Empirical Robust Bayes Tagwise Dispersions for
+                        Negative Binomial GLMs using Observation
+                        Weights
+estimateGLMTagwiseDisp
+                        Empirical Bayes Tagwise Dispersions for
+                        Negative Binomial GLMs
+estimateGLMTrendedDisp
+                        Estimate Trended Dispersion for Negative
+                        Binomial GLMs
+estimateTagwiseDisp     Estimate Empirical Bayes Tagwise Dispersion
+                        Values
+estimateTrendedDisp     Estimate Empirical Bayes Trended Dispersion
+                        Values
+exactTest               Exact Tests for Differences between Two Groups
+                        of Negative-Binomial Counts
+expandAsMatrix          expandAsMatrix
+getCounts               Extract Specified Component of a DGEList Object
+getPriorN               Get a Recommended Value for Prior N from
+                        DGEList Object
+gini                    Gini dispersion index
+glmFit                  Genewise Negative Binomial Generalized Linear
+                        Models
+glmQLFit                Genewise Negative Binomial Generalized Linear
+                        Models with Quasi-likelihood Tests
+glmTreat                Test for Differential Expression Relative to a
+                        Threshold
+goana.DGELRT            Gene Ontology or KEGG Analysis of
+                        Differentially Expressed Genes
+gof                     Goodness of Fit Tests for Multiple GLM Fits
+goodTuring              Good-Turing Frequency Estimation
+loessByCol              Locally Weighted Mean By Column
+maPlot                  Plots Log-Fold Change versus Log-Concentration
+                        (or, M versus A) for Count Data
+makeCompressedMatrix    makeCompressedMatrix
+maximizeInterpolant     Maximize a function given a table of values by
+                        spline interpolation.
+maximizeQuadratic       Maximize a function given a table of values by
+                        quadratic interpolation.
+mglm                    Fit Negative Binomial Generalized Linear Model
+                        to Multiple Response Vectors: Low Level
+                        Functions
+movingAverageByCol      Moving Average Smoother of Matrix Columns
+nbinomDeviance          Negative Binomial Deviance
+normalizeChIPtoInput    Normalize ChIP-Seq Read Counts to Input and
+                        Test for Enrichment
+plotBCV                 Plot Biological Coefficient of Variation
+plotExonUsage           Create a Plot of Exon Usage from Exon-Level
+                        Count Data
+plotMD.DGEList          Mean-Difference Plot of Count Data
+plotMDS.DGEList         Multidimensional scaling plot of distances
+                        between digital gene expression profiles
+plotQLDisp              Plot the quasi-likelihood dispersion
+plotSmear               Smear plot
+plotSpliceDGE           Differential splicing plot
+predFC                  Predictive log-fold changes
+processAmplicons        Process raw data from pooled genetic sequencing
+                        screens
+q2qnbinom               Quantile to Quantile Mapping between
+                        Negative-Binomial Distributions
+readDGE                 Read and Merge a Set of Files Containing Count
+                        Data
+roast.DGEList           Rotation Gene Set Tests for Digital Gene
+                        Expression Data
+romer.DGEList           Rotation Gene Set Tests for Digital Gene
+                        Expression Data
+scaleOffset             Scale offsets
+spliceVariants          Identify Genes with Splice Variants
+splitIntoGroups         Split the Counts or Pseudocounts from a DGEList
+                        Object According To Group
+subsetting              Subset DGEList, DGEGLM, DGEExact and DGELRT
+                        Objects
+sumTechReps             Sum Over Replicate Samples
+systematicSubset        Take a systematic subset of indices.
+thinCounts              Binomial or Multinomial Thinning of Counts
+topSpliceDGE            Top table of differentially spliced genes or
+                        exons
+topTags                 Table of the Top Differentially Expressed Tags
+validDGEList            Check for Valid DGEList object
+weightedCondLogLikDerDelta
+                        Weighted Conditional Log-Likelihood in Terms of
+                        Delta
+zscoreNBinom            Z-score Equivalents of Negative Binomial
+                        Deviate

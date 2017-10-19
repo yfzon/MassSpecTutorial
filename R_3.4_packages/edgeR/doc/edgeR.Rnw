@@ -1,0 +1,48 @@
+%\VignetteIndexEntry{edgeR Vignette}
+%\VignetteKeyword{RNA-Seq}
+%\VignetteKeyword{differential expression}
+%\VignettePackage{edgeR}
+\documentclass[12pt]{article}
+
+\textwidth=6.2in
+\textheight=8.5in
+\oddsidemargin=0.2in
+\evensidemargin=0.2in
+\headheight=0in
+\headsep=0in
+
+\begin{document}
+
+\title{edgeR Package Introduction}
+\author{Yunshun Chen, Davis McCarthy, Aaron Lun,\\
+Xiaobei Zhou, Mark Robinson, Gordon K.\ Smyth}
+\date{10 October 2012\\
+Revised 8 October 2014}
+\maketitle
+
+
+edgeR is a package for the differential expression analysis of digital gene expression data,
+that is, of count data arising from DNA sequencing technologies.
+It is especially designed for differential expression analyses of RNA-Seq or SAGE data,
+or differential marking analyses of ChIP-Seq data.
+
+edgeR implements novel statistical methods based on the negative binomial distribution
+as a model for count variability, including empirical Bayes methods, exact tests, and generalized linear models.
+The package is especially suitable for analysing designed experiments with multiple
+experimental factors but possibly small numbers of replicates.
+It has unique abilities to model transcript specific variation even in small samples,
+a capability essential for prioritizing genes or transcripts that have consistent effects across replicates.
+
+The full edgeR User's Guide is available as part of the online documentation.
+To reach the User's Guide, install the edgeR package and load it into an R session by \texttt{library(edgeR)}.
+In R for Windows, the User's Guide will then be available from the drop-down menu called ``Vignettes''.
+In other operating systems, type
+\begin{Schunk}
+\begin{Sinput}
+> library(edgeR)
+> edgeRUsersGuide()
+\end{Sinput}
+\end{Schunk}
+at the R prompt to open the User's Guide in a pdf viewer.
+
+\end{document}
