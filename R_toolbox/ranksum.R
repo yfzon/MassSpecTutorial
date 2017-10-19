@@ -1,0 +1,11 @@
+rm(list=ls())
+library(limma)
+stat<-rnorm(100)
+index<-1:10
+stat[index]<-stat[1:10]+1
+rankSumTestWithCorrelation(index,stat)
+rankSumTestWithCorrelation(index,stat,correlation=0.1)
+group<-rep(1,100)
+group[index]<-2
+group<-factor(group)
+wilcox.test(stat~group)
